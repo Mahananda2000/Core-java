@@ -8,9 +8,13 @@ public class IceCreamParlour {
 	public String typeOfIceCreams[];
 	public String iceCreamFlours[];
 	public int prices[];
-			
 	
-	public   IceCreamParlour(String gstNo,String name,String address,String brandNames[],String typeOfIceCreams[],String iceCreamFlours[],int prices[]) {
+	//default constructor
+	public IceCreamParlour() {
+		
+	}
+	//parameterised constructor
+	/* public   IceCreamParlour(String gstNo,String name,String address,String brandNames[],String typeOfIceCreams[],String iceCreamFlours[],int prices[]) {
 		System.out.println("IceCreamParlour object is Created");
 		
 		this.gstNo=gstNo;
@@ -20,7 +24,7 @@ public class IceCreamParlour {
 		this.typeOfIceCreams=typeOfIceCreams;
 		this.iceCreamFlours=iceCreamFlours;
 		this.prices=prices;
-	}
+	}*/
 	public void toEnjoy() {
 		System.out.println("IceCreamParlour names is "+name);
 		System.out.println("=================================");

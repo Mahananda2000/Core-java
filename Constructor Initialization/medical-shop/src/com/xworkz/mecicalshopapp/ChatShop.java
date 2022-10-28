@@ -11,8 +11,12 @@ public class ChatShop {
 		public int chatPrice[];
 		public String softDrinks[];
 		public int noOfChats;
-		
-		public ChatShop(String gstNo,String name,String address,String chatNames[],int chatPrice[],String softDrinks[],int noOfChats) {
+		//default constructor
+		public ChatShop() {
+			
+		}
+		//parameterized constructor
+		/*public ChatShop(String gstNo,String name,String address,String chatNames[],int chatPrice[],String softDrinks[],int noOfChats) {
 			
 			System.out.println("ChatShop Object is Created");
 			this.gstNo=gstNo;
@@ -23,7 +27,7 @@ public class ChatShop {
 			this.softDrinks=softDrinks;
 			this.noOfChats=noOfChats;
 			
-	}
+	}*/
 		public void displayInfo() {
 			System.out.println("chatShop name is"+ name);
 			System.out.println("=======================");
