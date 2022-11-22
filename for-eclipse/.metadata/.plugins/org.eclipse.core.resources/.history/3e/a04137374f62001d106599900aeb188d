@@ -1,0 +1,22 @@
+package com.xworkz.hospitalapp;
+
+import com.xworkz.hospitalapp.constant.Gender;
+import com.xworkz.hospitalapp.hospital.Hospital;
+import com.xworkz.hospitalapp.patient.Patient;
+
+public class HospitalTester {
+	public static void main(String args[]) {
+		
+		Patient patient=new Patient("muskan","attar",Gender.female,23);
+		Hospital hl=new Hospital();
+	    hl.isEmergency=true;
+		hl.isTreatmentRequired=true;;
+		boolean isAdmitted=hl.admit(patient);
+		System.out.println(Gender.female);
+		System.out.println("it is emergency"+isAdmitted);
+		System.out.println("patient allowed to admit is "+ isAdmitted);
+		
+		
+	}
+
+}

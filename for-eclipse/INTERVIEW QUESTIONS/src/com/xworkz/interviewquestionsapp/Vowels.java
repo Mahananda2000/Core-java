@@ -1,0 +1,15 @@
+package com.xworkz.interviewquestionsapp;
+
+public class Vowels {
+	
+	public static void main(String args[]) {
+		int vCount=0;
+		String name="mahananda bilagi";
+		for(i=0; i<=name.length; i++) {
+			if() {
+			System.out.println(vCount.name);
+		}
+		
+	}
+
+}

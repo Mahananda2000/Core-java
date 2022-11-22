@@ -1,0 +1,14 @@
+package com.xworkz.hospitalapp;
+
+public class WrapperTester {
+	
+	public static void main(String args[]) {
+		
+		int age=89;//line 7 to 9 is primitive to wrapper class convertion
+		//boxing
+		Integer age1 = age;
+		//un-boxing
+		int age2=age1;
+	}
+
+}

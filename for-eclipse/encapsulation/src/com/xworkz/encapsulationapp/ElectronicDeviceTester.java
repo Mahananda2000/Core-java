@@ -1,0 +1,18 @@
+package com.xworkz.encapsulationapp;
+
+public class ElectronicDeviceTester {
+	
+	public static void main(String args[]) {
+		
+		ElectronicDeviceDTO ed=new ElectronicDeviceDTO();
+			ed.setDeviceName("laptop");
+			ed.setCost(25000);
+			System.out.println("device name is "+ " "+ed.getDeviceName());
+			System.out.println("cost is "+" "+ ed.getCost());
+			
+			
+			
+		
+	}
+
+}

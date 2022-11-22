@@ -1,0 +1,20 @@
+package com.xworkz.Airportapp;
+
+public class EmployeeTester {
+	
+	public static void main(String args[]) {
+		
+		 String Employee companyName="Amazon";
+		
+		Employee emp = new Employee();
+		emp.employeeId="AWS123";
+		emp.name="maha";
+		emp.bloodGroup="o+";
+		System.out.println("Employee.companyName");
+		
+		
+		
+		
+	}
+
+}

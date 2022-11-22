@@ -1,0 +1,12 @@
+package com.xworjkz.teaStallapp;
+
+public class TeaStallTester {
+ 
+	public static void main (String args[]){
+	 	TeaStall ref=new TeaStall();
+	 	System.out.println(ref.name +" "+ ref.teaStallId+ " "+ref.ownerName);
+	 	
+	 
+		
+	}
+}

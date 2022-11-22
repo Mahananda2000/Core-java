@@ -1,0 +1,38 @@
+package com.xworkz.hospitalapp;
+
+public class WrapperTester {
+	
+	public static void main(String args[]) {
+		
+		int age=89;//line 7 to 9 is primitive to wrapper class convertion
+		//boxing
+		Integer age1 = age;
+		//un-boxing
+		int age2 = age1;
+		
+		long contactNo=6362101683L;
+		Long contactNo1= contactNo;
+		long contactNo2=contactNo1;
+		
+		double balance = 1500d;
+		Double balance1=balance;
+		double balance2=balance1;
+		
+		float price= 120.0f;
+		Float price1=price;
+		float price2=price1;
+		
+		char ch = 'm';
+		Character ch1=ch;
+		char ch2=ch1;
+		
+		byte id=1;
+		
+		
+		
+  
+	
+	}
+
+	
+}

@@ -1,0 +1,13 @@
+package com.xworkz.overloading;
+
+public class PetrolBunkTester {
+
+	public static void main(String[] args) {
+		
+		PetrolBunk bunk = new PetrolBunk(123,"DeveGouwda PetrolBunk","banashankari 2nd stage");
+
+	}
+
+}
+//two types of overloading
+//1)method overloading 2)constructor overloading-in a class 2 or 3 constrour same name but different parameterlist

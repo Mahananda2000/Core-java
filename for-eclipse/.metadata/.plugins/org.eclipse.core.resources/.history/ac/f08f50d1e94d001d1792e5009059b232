@@ -1,0 +1,15 @@
+package com.xworkz.Airportapp;
+
+public class Employee {
+	
+     //instance variable initialize the using ref variable
+	public int employeeId;
+	public String name; 
+	public String companyName;
+	public String bloodGroup;
+	
+	public void toHelpOrgToGrow()
+	  System.out.println()
+	
+
+}

@@ -1,0 +1,14 @@
+package com.xworkz.polymorphismapp;
+
+import com.xworkz.polymorphismapp.Fruits.Fruits;
+
+public class FruitsTester {
+	
+	public static void main(String args[]) {
+		Fruits apple=new Apple();
+		apple.getNutrition();
+		
+		
+	}
+
+}

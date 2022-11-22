@@ -1,0 +1,11 @@
+package com.xworkz.Airportapp;
+
+public class IronBoxTester {
+	public static void maiun(String args[]) {
+		
+		IronBox ir = new IronBox("USHA123","USHA","PIGiron");
+		System.out.println("IrionBox details");
+		System.out.println(ir.ironId +" "+ir.name + " "+ir.type);
+	}
+
+}

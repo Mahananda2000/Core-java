@@ -1,0 +1,18 @@
+package com.xworkz.Airportapp;
+
+public class FootWareTester {
+	public static void main(String args[]) {
+		 FootWare ftw = new FootWare("id1","pink",100,"lunars",4,"sandal");
+		 System.out.println("FootWare Details");
+		 System.out.println(ftw.footWareId + " "+ fwt.color +" "+ fwt.price + " "+fwt.brandName + " "+fwt.size + " "+fwt.model);
+		 
+		 FootWare ftw1 = new FootWare("id1","pink",100,"lunars",4,"sandal");
+		 System.out.println("FootWare Details");
+		 System.out.println(ftw1.footWareId + " "+ fwt1.color +" "+ fwt1.price + " "+fwt1.brandName + " "+fwt1.size + " "+fwt1.model);
+		 
+		 FootWare ftw2 = new FootWare("id1","pink",100,"lunars",4,"sandal");
+		 System.out.println("FootWare Details");
+		 System.out.println(ftw2.footWareId + " "+ fwt2.color +" "+ fwt2.price + " "+fwt2.brandName + " "+fwt2.size + " "+fwt2.model);
+		 
+	}
+}

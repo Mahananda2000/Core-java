@@ -1,0 +1,9 @@
+package com.xworkz.inheritanceapp;
+
+public class Fruit {
+	public void goGetHealthier() {
+		
+		System.out.println("fruits are used to protect our body");
+	}
+
+}

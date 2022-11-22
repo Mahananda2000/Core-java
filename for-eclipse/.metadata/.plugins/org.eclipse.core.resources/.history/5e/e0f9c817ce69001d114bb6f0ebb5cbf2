@@ -1,0 +1,15 @@
+package com.xworkz.encapsulationapp;
+
+public class IceCreamTester {
+	
+	public static void main(String args[]) {
+		IceCreamDTO ic= new IceCreamDTO();
+		ic.setBrandName();
+		ic.setceCreamName();
+		ic.setFlavour();
+		ic.setPrice();
+		System.out.println("brand name is "+ " "+ ic.getBrandName());
+		
+	}
+
+}

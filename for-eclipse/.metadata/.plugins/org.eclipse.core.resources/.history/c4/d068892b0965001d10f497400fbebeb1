@@ -1,0 +1,8 @@
+package com.xworkz.polymorphismapp.Orange;
+
+public class RedBull extends Tin {
+	public void storeLiquid() {
+		System.out.println("Redbull is a softdrinks");
+	}
+
+}

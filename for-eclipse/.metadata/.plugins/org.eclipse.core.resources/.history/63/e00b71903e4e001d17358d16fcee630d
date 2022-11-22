@@ -1,0 +1,28 @@
+package com.xworkz.Airportapp;
+
+public class Watch {
+	public String watchId;
+	public String color;
+	public int price;
+	public String brandName;
+	public String type;
+	
+  
+   public Watch() {
+	
+}
+
+public Watch(String wId,String clr,int pr,String bName,String tp) {
+	System.out.println("Watch object is created");
+	watchId = wId;//employeeId=employeeId; if in case write this we get the result null
+	color = clr;
+	price= pr;
+	brandName=bName;
+	type=tp;
+}
+public void toHelpToSeeTime() {
+  System.out.println(".......");
+
+
+}
+  

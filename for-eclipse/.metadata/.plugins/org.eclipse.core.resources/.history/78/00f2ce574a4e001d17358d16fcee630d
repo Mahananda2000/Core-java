@@ -1,0 +1,10 @@
+package com.xworkz.Airportapp;
+
+public class FootWareTester {
+	public static void main(String args[]) {
+		 FootWare ftw = new FootWare("id1","pink",1000,"QUARTZ","lather");
+		 System.out.println("FootWare Details");
+		 System.out.println(ftw.footWareId + " "+ fwt.color +" "+ fwt.price + " "+fwt.brandName + " "+wt.type);
+		 
+
+}

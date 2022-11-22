@@ -1,0 +1,9 @@
+package com.xworkz.encapsulationapp;
+
+public class TourPlaceDTO {
+	
+	private String placeName;
+	private String location;
+	
+
+}

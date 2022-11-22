@@ -1,0 +1,50 @@
+package com.xworkz.Airportapp;
+
+public class EmployeeTester {
+	
+	public static void main(String args[]) {
+		
+		 
+		//static members can be shared ampong multiple objects 
+		 Employee.companyName="Amazon";
+		 Employee.companyAddress="Manyata TechPark";
+		
+		/*Employee emp = new Employee();
+		emp.employeeId="AWS123";
+		emp.name="maha";
+		emp.bloodGroup="o+";
+		System.out.println("company Details");
+		System.out.println(Employee.companyName +" "+Employee.companyAddress);
+		System.out.println(emp.employeeId + " "+ emp.name +" "+ emp.bloodGroup); write both are same*/
+		 Employee emp = new Employee("AWS123","MAHA","0+");
+		 System.out.println("company Details");
+		 System.out.println(Employee.companyName +" "+Employee.companyAddress);
+		 System.out.println(emp.employeeId + " "+ emp.name +" "+ emp.bloodGroup);
+		
+		/*Employee emp1 = new Employee();
+		emp1.employeeId="AWS123";
+		emp1.name="maha";
+		emp1.bloodGroup="o+";
+		System.out.println(Employee.companyName +" "+Employee.companyAddress);
+		System.out.println(emp.employeeId + " "+ emp.name +" "+ emp.bloodGroup);*/
+		
+		
+		
+		/*Employee emp2 = new Employee();
+		emp2.employeeId="AWS123";
+		emp2.name="maha";
+		emp2.bloodGroup="o+";
+		System.out.println(Employee.companyName +" "+Employee.companyAddress);
+		System.out.println(emp.employeeId + " "+ emp.name +" "+ emp.bloodGroup);*/
+		
+		
+		
+		
+
+		
+		
+		
+		
+	}
+
+}

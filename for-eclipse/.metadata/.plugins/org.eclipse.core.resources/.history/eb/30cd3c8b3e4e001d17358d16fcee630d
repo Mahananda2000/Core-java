@@ -1,0 +1,16 @@
+package com.xworkz.Airportapp;
+
+public class Watch {
+	public String watchId;
+	public String color;
+	public int price;
+	public String brandName;
+	public String type;
+	
+  }
+   public Watch() {
+	
+}
+
+public Watch()
+  

@@ -1,0 +1,14 @@
+package com.xworkz.interviewquestionsapp;
+
+public class SwapTwoNumbers {
+	temp=0;
+	 a=10;
+     b=20;
+	public static void main(String args[]) {
+		temp=a;
+		a=b;
+		b=temp;
+		System
+	}
+
+}

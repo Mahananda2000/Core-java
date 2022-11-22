@@ -1,0 +1,9 @@
+package com.xworkz.polymorphismapp.Orange;
+
+public class Orange extends Fruits {
+	
+	public void getNutrition() {
+		System.out.println("orange provide vitamins");
+	}
+
+}

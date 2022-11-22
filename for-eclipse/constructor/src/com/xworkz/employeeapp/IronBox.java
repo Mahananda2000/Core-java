@@ -1,0 +1,22 @@
+package com.xworkz.employeeapp;
+
+public class IronBox {
+	
+		public String ironId;
+		public String name;
+		public String type;
+		
+		public IronBox() {
+			
+		}
+		 public IronBox(String iId,String nm,String tp ) {
+	      System.out.println("IronBox Object is created");
+		  ironId=iId;
+		  name=nm;
+		  type=tp; 
+		  
+	}
+	  public void toIronTheClothes() {
+		  System.out.println(".....");
+	  }
+	}

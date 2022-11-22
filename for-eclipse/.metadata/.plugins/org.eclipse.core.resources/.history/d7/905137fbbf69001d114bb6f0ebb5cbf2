@@ -1,0 +1,25 @@
+package com.xworkz.encapsulationapp;
+
+public class VechicleDTO {
+	
+	private String vechicleName;
+	private int vechicleId;
+	private int price;
+	
+	public void setvechicleName(String nm) {
+		vechicleName=nm;
+			
+	}
+	 public String getvechicleName() {
+		 return vechicleName;
+	 }
+	 
+	 public void setvechicleId(int id) {
+		 vechicleId=id;
+	 }
+	 
+	 public int getvechicleId() {
+		 return setvechicleId;
+	 }
+
+}

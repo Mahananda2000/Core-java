@@ -1,0 +1,14 @@
+package com.xworkz.encapsulationapp;
+
+public class HospitalTester {
+	
+	public static void main(String args[]) {
+		
+		HospitalDTO hos = new HospitalDTO();
+		hos.setHospitalName("kumareshwara");
+		hos.setHospitalLocation("bagalkot");
+		hos.setGender("female");
+		hos.setNoOfPatients(10);
+	}
+
+}

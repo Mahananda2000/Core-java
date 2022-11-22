@@ -1,0 +1,18 @@
+package com.xworkz.encapsulationapp;
+
+public class PersonDTO {
+	
+	private  String personName;
+	private String jobRole;
+	private String location;
+	
+	
+    public void setPersonName(String name) {
+    	this.personName=name;
+    	
+    }
+    public String getPersonName() {
+    	return personName;
+    }
+
+}

@@ -1,0 +1,15 @@
+package com.xworkz.Airportapp;
+
+public class WatchTester {
+	
+	public static void main(String args[]) {
+		 Watch wt = new Watch("Q123","pink",1000,"QUARTZ","lather");
+		 System.out.println("Watch Details");
+		 //System.out.println(Employee.companyName +" "+Employee.companyAddress);
+		 System.out.println(wt.watchId + " "+ wt.color +" "+ wt.price + " "+wt.brandName + " "+wt.type);
+		 
+		 
+
+	}
+
+}

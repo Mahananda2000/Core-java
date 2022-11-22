@@ -1,0 +1,10 @@
+package com.xworjkz.teaStallapp;
+
+public class TeaStallTester {
+ 
+	public static void main (String args[]){
+	 	TeaStall ref=new TeaStall();
+	 
+		
+	}
+}

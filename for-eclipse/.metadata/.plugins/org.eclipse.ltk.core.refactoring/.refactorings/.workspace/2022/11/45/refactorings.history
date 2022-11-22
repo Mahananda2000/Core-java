@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;bank-management-system/src/com/xworkz/bankapp/current.java&apos;" deleteContents="false" description="Delete resource &apos;bank-management-system/src/com/xworkz/bankapp/current.java&apos;" element1="/bank-management-system/src/com/xworkz/bankapp/current.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1667461844228"/>
+</session>

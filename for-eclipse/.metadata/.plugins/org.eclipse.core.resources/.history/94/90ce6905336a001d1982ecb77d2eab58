@@ -1,0 +1,13 @@
+package com.xworkz.engineerapp.engineer;
+
+public class EcEngineer  extends Engineer{
+	
+	
+	@Override
+	public void solveProblems() {
+		   
+		System.out.println("to solve problems by EcEngineer");
+		}
+
+
+}

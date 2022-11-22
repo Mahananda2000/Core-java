@@ -1,0 +1,7 @@
+package com.xworkz.encapsulationapp;
+
+public class AnimalTester {
+
+	Animal an=new Animal("elephant","black");
+	
+}

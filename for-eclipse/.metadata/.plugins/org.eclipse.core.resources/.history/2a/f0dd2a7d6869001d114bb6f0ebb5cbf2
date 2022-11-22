@@ -1,0 +1,12 @@
+package com.xworkz.polymorphismapp.Fruits;
+
+import com.xworkz.polymorphismapp.Apple.Exam;
+
+public class Supplementary  extends Exam{
+	
+	@override
+	public boolean allow(Hallticket hallticket) {
+	
+	
+
+}

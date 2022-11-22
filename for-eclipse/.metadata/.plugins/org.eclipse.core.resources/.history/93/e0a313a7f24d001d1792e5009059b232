@@ -1,0 +1,30 @@
+package com.xworkz.Airportapp;
+
+public class Employee {
+	
+     //instance variable initialize the using ref variable
+	static public String companyName;
+	static public String companyAddress;
+	
+	public String employeeId;
+	public String name; 
+	public String bloodGroup;
+	//constroctor ids default constrictor(),=no any parametrs
+	public Employee() {
+		
+	}
+	
+	//use of Constructor is to initialize the instance variable of class use of construoct is is along with object only
+	public Employee(String empId,String nm, String bgroup)//paramertrized constrocout 
+	{
+		System.out.println("Employee object is created");
+		employeeId = empId;
+		name = nm;
+		bloodGroup= bgroup;
+	}
+	public void toHelpOrgToGrow() {
+	  System.out.println("nanuu nane.......");
+	
+
+}
+}

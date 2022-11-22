@@ -1,0 +1,23 @@
+package com.xworkz.employeeapp;
+
+
+	public class IceCreamTester {
+	public static void main(String args[]) {
+			
+			IceCream ic = new IceCream("ice1","pink",10,"arun","straberry");
+			System.out.println("IceCream Details");
+			System.out.println(ic.iceCreamId +" "+ic.color + " "+ic.price +" "+ic.brandName +" "+ic.flavor);
+			
+			IceCream ic1 = new IceCream("ice2","yellow",25,"wadilal","butterscroch");
+			System.out.println("IceCream Details");
+			System.out.println(ic1.iceCreamId +" "+ic1.color + " "+ic1.price +" "+ic1.brandName +" "+ic1.flavor);
+			
+			IceCream ic2 = new IceCream("ice3","brown",30,"creambell","chacolate");
+			System.out.println("IceCream Details");
+			System.out.println(ic2.iceCreamId +" "+ic2.color + " "+ic2.price +" "+ic2.brandName +" "+ic2.flavor);
+	}
+	}
+
+
+
+

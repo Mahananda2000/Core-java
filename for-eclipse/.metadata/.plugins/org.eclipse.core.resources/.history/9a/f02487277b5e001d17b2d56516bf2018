@@ -1,0 +1,14 @@
+package com.xworkz.inheritanceapp;
+
+public class Fruit {
+	
+	 public int price;
+	 
+	public void toGetHealthier() {
+		this.price=price;
+
+		
+		System.out.println("fruits are used to protect our body");
+	}
+
+}

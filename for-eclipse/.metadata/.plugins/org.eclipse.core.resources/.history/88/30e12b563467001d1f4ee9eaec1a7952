@@ -1,0 +1,10 @@
+package com.xworkz.interviewquestionsapp;
+
+public class PremitiveDataTypes {
+	
+	public static void main(String arhs[]) {
+		int age=23;
+		float id=345678f;
+		
+	}
+}

@@ -1,0 +1,16 @@
+package com.xworkz.Airportapp;
+
+public class Airport {
+	//instance 
+	String name= "BIA";
+	
+	public static void main(String aregs[]) {
+		
+		int airportId = 0;
+		System.out.println(airportId);
+		
+	}
+	
+	
+
+}

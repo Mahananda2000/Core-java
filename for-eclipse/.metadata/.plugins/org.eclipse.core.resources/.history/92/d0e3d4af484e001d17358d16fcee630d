@@ -1,0 +1,12 @@
+package com.xworkz.Airportapp;
+
+public class SoftDrinksTester {
+public static void main(String args[]) {
+		
+		SoftDrinks sd = new SoftDrinks("ice1","pink",10,"arun","straberry");
+		System.out.println("SoftDrinks Details");
+		System.out.println(sd.softDrinksId +" "+sd.price +" "+sd.brandName +" "+sd.type);
+		
+
+}
+}

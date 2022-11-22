@@ -1,0 +1,16 @@
+package com.xworkx.interview;
+
+public class LargestAndSmallest {
+	public static void findLargestAndSmallestNumber(int a[]) {
+		int smallest=a[0];
+		int largest=a[0];
+		System.out.println("The Largest number is "+ largest);
+		System.out.println("The smallest number is "+ smallest);
+	}
+	public static void main(String args[]) {
+		int a[]= {34,56,78,89,108,566,4};
+		 findLargestAndSmallestNumber(a);
+		 
+	}
+
+}

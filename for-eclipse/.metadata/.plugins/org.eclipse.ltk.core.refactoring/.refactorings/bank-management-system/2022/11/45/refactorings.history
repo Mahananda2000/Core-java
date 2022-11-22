@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;bank-management-system/src/com/xworkz/bankapp/SavingsAccount&apos; to &apos;savings&apos;" description="Rename resource &apos;SavingsAccount&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/xworkz/bankapp/SavingsAccount" name="savings" stamp="1667461658997" updateReferences="true"/>
+</session>

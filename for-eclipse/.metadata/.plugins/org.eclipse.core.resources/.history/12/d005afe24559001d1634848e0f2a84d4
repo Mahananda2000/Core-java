@@ -1,0 +1,50 @@
+package com.xworkz.overloading;
+
+public class Market {
+	public int id;
+	public String marketName;
+	public String location;
+	public String vegetables[]=new String [7];
+	
+	//default constructor
+	public Market() {
+		System.out.println("default constructor is called");
+	}
+	
+	public Market(String vegetables[]) {
+		this(123,"amma supermarket","bagalkot",vegetables);
+		System.out.println("one parameterised constructor is created");		
+      }
+	
+	//parameterized constructor
+	public Market(int id,String marketName,String location,String[] vegetables) {
+		this();
+		System.out.println("calling 4 parameterized constructor ");
+		this.id=id;
+		this.marketName=marketName;
+		this.location=location;
+		this.vegetables=vegetables;
+	}
+	public void provideFuels() {
+		//this();//change one constructor to another constructor
+		//this method is used to communicate with one constructor to another
+		//this method purpose avoid conflict between parameters 
+		//this keyword only used insance variabls
+	}
+	public void displayDetails() {
+		System.out.println("displayDetails() is invoked");
+		System.out.println(this.id+ " "+ this.name+" "+ this.location);
+		System.out.println("list of workers for "+this.name);
+		for(int i=0;i<workersName.length;i++) {
+			System.out.println(workersName[i]);
+			
+			
+		}
+	     
+	}
+	
+
+}
+
+
+}

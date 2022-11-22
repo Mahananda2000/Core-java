@@ -1,0 +1,36 @@
+package com.xworkz.overloading;
+
+public class PetrolBunk {
+  
+	
+	//instance variables /states /properties/
+	public int id;
+	public String name;
+	public String location;
+	public String workersName[]=new String [7];
+	
+	//default constructor
+	public PetrolBunk() {
+		System.out.println("default constructor is called");
+	}
+	public PetrolBunk(String workersName[]) {
+		//this(); constructor recursive not present in the java arguments only passed in the default constructor like"maha',123,
+		this(123,"DeveGouwda PetrolBunk","banashankari 2nd stage",workersName);
+		System.out.println("one parameterised constructor is created");		
+      }
+	
+	//parameterised constructor
+	public PetrolBunk(int id,String name,String location,String[] workersName) {
+		//this();//this method is alawys start with here only, tocall a constructor
+		System.out.println("calling 4 parameterized constructor ");
+		this.id=id;
+		this.name=name;
+		this.location=location;
+		this.workersName=workersName;
+	}
+	public void provideFuels() {
+		//this();//change one construotr to another constructor
+	}
+	
+
+}

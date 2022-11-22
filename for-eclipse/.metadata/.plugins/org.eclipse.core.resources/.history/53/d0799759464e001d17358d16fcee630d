@@ -1,0 +1,11 @@
+package com.xworkz.Airportapp;
+
+public class IceCreamTester {
+public static void maiun(String args[]) {
+		
+		IceCream ic = new IceCream("USHA123","USHA","PIGiron");
+		System.out.println("IceCream Details");
+		System.out.println(ic.iceCreamId +" "+ic.color + " "+ic.price +" "+ic.brandName +" "+ic.flavor);
+		
+}
+}

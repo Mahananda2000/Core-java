@@ -1,0 +1,11 @@
+package com.xworkz.encapsulationapp;
+
+public class HospitalDTO {
+	
+	private String name;
+	private String gender;
+	private int noOfPatients;
+	
+	
+
+}

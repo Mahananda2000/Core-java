@@ -1,0 +1,17 @@
+package com.xworkz.encapsulationapp;
+
+public class TourPlaceDTO {
+	
+	private String placeName;
+	private String location;
+	
+	public void setPlaceName(String placeName) {
+		this.placeName=placeName;
+		
+	}
+	
+	public String getPlaceName() {
+		return placeName;
+	}
+
+}

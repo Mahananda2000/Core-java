@@ -1,0 +1,13 @@
+package com.xworkz.inheritanceapp;
+
+public class FruitTester {
+	
+	Fruit fr=new Fruit(int price);
+	fr.toGetHealthier(32);
+	this.price=price;
+	System.out.println(" fruit price is "+ fr.price);
+	
+	
+	
+
+}

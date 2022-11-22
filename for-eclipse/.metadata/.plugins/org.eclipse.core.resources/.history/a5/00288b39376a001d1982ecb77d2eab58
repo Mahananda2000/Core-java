@@ -1,0 +1,20 @@
+package com.xworkz.engineerapp;
+
+import com.xworkz.engineerapp.engineer.EcEngineer;
+import com.xworkz.engineerapp.engineer.Engineer;
+
+public class Engineer1Tester {
+	public static void main(String args[]) {
+	
+
+			Engineer1 ecEngineer1 = new EcEngineer1();
+	         String message=ecEngineer1.solveProblems();
+	         System.out.println(message);
+	         
+	         Engineer1 csEngineer1 = new CsEngineer1();
+	         String message=csEngineer1.solveProblems();
+	         System.out.println(message);
+
+
+}
+}

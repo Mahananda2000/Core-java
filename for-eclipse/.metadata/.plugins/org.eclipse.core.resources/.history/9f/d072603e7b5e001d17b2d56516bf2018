@@ -1,0 +1,17 @@
+package com.xworkz.inheritanceapp;
+ import com.xworkz.inheritanceapp.Fruit.Fruit;
+public class FruitTester {
+	
+	Fruit fr=new Fruit();
+	fr.toGetHealthier(50);
+	System.out.println(" fruit price is "+ fr.price);
+	
+	Orange or= new Orange();
+	or.toGetHealthier();
+	System.out.println(" orange price is "+ or.price);
+	
+	
+	
+	
+
+}

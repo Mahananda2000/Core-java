@@ -1,0 +1,15 @@
+package com.xworkz.engineerapp;
+
+import com.xworkz.engineerapp.engineer.EcEngineer;
+import com.xworkz.engineerapp.engineer.Engineer;
+
+public class Engineer1Tester {
+	public static void main(String args[]) {
+	
+
+			Engineer ecEngineer = new EcEngineer();
+	         String message=ecEngineer.solveProblems();
+	         System.out.println(message);
+
+}
+}

@@ -1,0 +1,31 @@
+package com.xworkz.overloading;
+
+public class PetrolBunk {
+  
+	
+	//instance variables /states /properties/
+	public int id;
+	public String name;
+	public String location;
+	public String workersName[]=new String [7];
+	
+	//default constructor
+	public PetrolBunk() {
+		System.out.println("petrolbunk objrct is created");		
+      }
+	
+	//parameterised constructor
+	public PetrolBunk(int id,String name,String location,String[] workersName) {
+		this();//this method is alawys start with here only
+		System.out.println("parameterized constructor ");
+		this.id=id;
+		this.name=name;
+		this.location=location;
+		this.workersName=workersName;
+	}
+	public void provideFuels() {
+		//this();//change one construotr to another constructor
+	}
+	
+
+}

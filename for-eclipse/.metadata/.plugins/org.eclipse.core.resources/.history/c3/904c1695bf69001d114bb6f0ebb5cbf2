@@ -1,0 +1,9 @@
+package com.xworkz.encapsulationapp;
+
+public class VechicleDTO {
+	
+	private String vechicleName;
+	private int vechicleId;
+	private int price;
+
+}

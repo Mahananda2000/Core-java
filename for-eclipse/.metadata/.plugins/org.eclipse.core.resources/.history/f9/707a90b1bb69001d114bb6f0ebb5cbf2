@@ -1,0 +1,8 @@
+package com.xworkz.encapsulationapp;
+
+public class AnimalDTO {
+	private static String name;
+	private static String colour;
+	
+
+}

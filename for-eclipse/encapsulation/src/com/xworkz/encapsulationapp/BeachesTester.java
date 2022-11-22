@@ -1,0 +1,15 @@
+package com.xworkz.encapsulationapp;
+
+public class BeachesTester {
+	
+	public static void main(String args[]) {
+		
+		BeachesDTO bc=new BeachesDTO();
+		bc.setName("malpe");
+		bc.setId(12);
+		
+		System.out.println("beaches name is "+" "+bc.getName());
+		System.out.println("beaches id is "+ " "+ bc.getId());
+	}
+
+}

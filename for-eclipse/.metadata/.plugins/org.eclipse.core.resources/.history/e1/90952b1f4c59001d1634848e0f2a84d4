@@ -1,0 +1,14 @@
+package com.xworkz.overloading;
+
+public class CarramBoardTester {
+
+	public static void main(String[] args) {
+		String brandNames[]= {"onion","carrat","potato","bringal","tomato","beans"};
+        CarramBoard cb=new CarramBoard(brandNames);
+            //System.out.println(veg.id + " "+ veg.name);
+              cb.displayDetails();
+
+
+	}
+
+}

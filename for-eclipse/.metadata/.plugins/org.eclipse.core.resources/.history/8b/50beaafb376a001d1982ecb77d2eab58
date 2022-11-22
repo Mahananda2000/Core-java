@@ -1,0 +1,11 @@
+package com.xworkz.engineerapp.CsEngineer;
+
+public class CsEngineer1 extends Engeneer1 {
+	
+	@Override
+	public String solveProblems() {
+		return"solve problems by cs engineer";
+		
+	}
+
+}

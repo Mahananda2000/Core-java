@@ -1,0 +1,24 @@
+package com.xworkz.polymorphismapp.Fruits;
+
+import com.xworkz.polymorphismapp.Apple.Exam;
+
+public class Supplementary  extends Exam{
+	int noOfAttempts ;
+	public SupplementaryExam(int noOgAttempts) {
+		this.noOfAttempts=noOfAttempts;
+		
+	}
+	@override
+	public boolean allow(Hallticket hallticket) {
+		System.out.println("Invoked allow method of supplementaryExam");
+		if(noOfAttempts>1) {
+			return super.allow(hallticket);
+		}
+		return false;
+		
+	
+	
+
+}
+
+}

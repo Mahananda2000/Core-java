@@ -1,0 +1,32 @@
+package com.xworkz.Airportapp;
+
+public class FootWare {
+	public String footWareId;
+	public String color;
+	public long price;
+	public String brandName;
+	public int size;
+	public String model;
+	
+  
+   public Watch() {
+	
+}
+
+public Watch(String wId,String clr,long prc,String bName,String tp) {
+	System.out.println("Watch object is created");
+	watchId = wId;
+	color = clr;
+	price= prc;
+	brandName=bName;
+	type=tp;
+}
+public void toHelpToSeeTime() {
+  System.out.println(".......");
+
+
+}
+  
+}
+
+}
